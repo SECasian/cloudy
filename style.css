@@ -1,0 +1,71 @@
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #1d095a;
+  border-color: #390775;
+}
+
+.text-primary {
+  color: #101d42 !important;
+}
+
+.text-secondary {
+  color: #fbb44c !important;
+}
+
+.text-light {
+  color: #eaeaea !important;
+}
+
+.bg-primary {
+  background: linear-gradient(to bottom, #94c5f8 1%, #a6e6ff 70%, #b1b5ea 100%);
+}
+
+.bg-secondary {
+  background-color: #dfedf517 !important;
+}
+
+.bg-dark {
+  background: linear-gradient(to bottom, #b7eaff 0%, #94dfff 100%);
+}
+
+body h1 {
+  opacity: 0.8;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+header {
+  height: 30vh;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 80px;
+  right: 50px;
+  font-size: 40px;
+  border-radius: 50%;
+  border: 1px transparent #39077522;
+  color: #b1b5ea;
+  background-color: #94c4f87e;
+  display: none;
+}
